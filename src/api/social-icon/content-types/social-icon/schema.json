@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "social_icons",
+  "info": {
+    "singularName": "social-icon",
+    "pluralName": "social-icons",
+    "displayName": "socialIcon"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "imageUrl": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}
