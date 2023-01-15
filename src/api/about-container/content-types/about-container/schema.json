@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_containers",
+  "info": {
+    "singularName": "about-container",
+    "pluralName": "about-containers",
+    "displayName": "about-container"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "richtext",
+      "maxLength": 500,
+      "required": true
+    },
+    "imageUrl": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "order": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

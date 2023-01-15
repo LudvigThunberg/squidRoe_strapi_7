@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "albums",
+  "info": {
+    "singularName": "album",
+    "pluralName": "albums",
+    "displayName": "album"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "artist": {
+      "type": "string",
+      "required": true
+    },
+    "coverLink": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "bandcampLink": {
+      "type": "string",
+      "required": true
+    },
+    "soundcloudLink": {
+      "type": "string",
+      "required": true
+    },
+    "spotifyLink": {
+      "type": "string"
+    },
+    "deezerLink": {
+      "type": "string"
+    },
+    "applemusicLink": {
+      "type": "string"
+    },
+    "beatportLink": {
+      "type": "string"
+    },
+    "traxsourceLink": {
+      "type": "string"
+    },
+    "bandcampEmbed": {
+      "type": "string",
+      "required": true
+    },
+    "releaseDate": {
+      "type": "date",
+      "required": true
+    }
+  }
+}
