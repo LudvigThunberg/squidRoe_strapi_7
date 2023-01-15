@@ -1,0 +1,31 @@
+{
+  "name": "squid-roe-strapi-7",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.5.6",
+    "@strapi/plugin-users-permissions": "4.5.6",
+    "@strapi/strapi": "4.5.6",
+    "better-sqlite3": "7.4.6",
+    "pg": "^8.8.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "4a3d8953-0d83-456f-9b7b-7e4b6d82f42e"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
