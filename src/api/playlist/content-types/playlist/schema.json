@@ -4,7 +4,8 @@
   "info": {
     "singularName": "playlist",
     "pluralName": "playlists",
-    "displayName": "playlist"
+    "displayName": "playlist",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,16 +20,16 @@
       "type": "string",
       "required": true
     },
-    "playlistIframe": {
-      "type": "string",
-      "required": true
-    },
     "playlistLink": {
       "type": "string",
       "required": true
     },
     "order": {
       "type": "integer",
+      "required": true
+    },
+    "playlistIframe": {
+      "type": "richtext",
       "required": true
     }
   }
