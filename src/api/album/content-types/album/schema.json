@@ -51,8 +51,8 @@
     "traxsourceLink": {
       "type": "string"
     },
-    "bandcampEmbed": {
-      "type": "string",
+    "bandcampEmbe": {
+      "type": "text",
       "required": true
     },
     "releaseDate": {
@@ -61,6 +61,10 @@
     },
     "coverLink": {
       "type": "string",
+      "required": true
+    },
+    "bandcampEmbed": {
+      "type": "richtext",
       "required": true
     }
   }
