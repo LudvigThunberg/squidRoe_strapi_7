@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * email service
+ * aaa service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::email.email');
+module.exports = createCoreService('api::aaa.aaa');

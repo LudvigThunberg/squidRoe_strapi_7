@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * email router
+ * aaa router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::email.email');
+module.exports = createCoreRouter('api::aaa.aaa');
