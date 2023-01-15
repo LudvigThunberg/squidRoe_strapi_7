@@ -4,7 +4,8 @@
   "info": {
     "singularName": "contact-link",
     "pluralName": "contact-links",
-    "displayName": "contact-link"
+    "displayName": "contact-link",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,12 +23,16 @@
     "email": {
       "type": "email"
     },
-    "iconUrl": {
-      "allowedTypes": [
-        "images"
-      ],
+    "iconImage": {
       "type": "media",
       "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "iconUrl": {
+      "type": "string",
       "required": true
     }
   }

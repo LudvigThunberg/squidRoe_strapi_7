@@ -4,7 +4,8 @@
   "info": {
     "singularName": "social-icon",
     "pluralName": "social-icons",
-    "displayName": "socialIcon"
+    "displayName": "socialIcon",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,12 +16,16 @@
       "type": "string",
       "required": true
     },
-    "imageUrl": {
-      "allowedTypes": [
-        "images"
-      ],
+    "image": {
       "type": "media",
       "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imageUrl": {
+      "type": "string",
       "required": true
     }
   }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "album",
     "pluralName": "albums",
-    "displayName": "album"
+    "displayName": "album",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,13 +20,13 @@
       "type": "string",
       "required": true
     },
-    "coverLink": {
-      "allowedTypes": [
-        "images"
-      ],
+    "coverArt": {
       "type": "media",
       "multiple": true,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "bandcampLink": {
       "type": "string",
@@ -56,6 +57,10 @@
     },
     "releaseDate": {
       "type": "date",
+      "required": true
+    },
+    "coverLink": {
+      "type": "string",
       "required": true
     }
   }

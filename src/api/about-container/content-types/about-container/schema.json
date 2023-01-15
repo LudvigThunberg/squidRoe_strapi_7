@@ -4,7 +4,8 @@
   "info": {
     "singularName": "about-container",
     "pluralName": "about-containers",
-    "displayName": "about-container"
+    "displayName": "about-container",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -20,16 +21,20 @@
       "maxLength": 500,
       "required": true
     },
-    "imageUrl": {
-      "allowedTypes": [
-        "images"
-      ],
+    "image": {
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "order": {
       "type": "integer",
+      "required": true
+    },
+    "imageUrl": {
+      "type": "string",
       "required": true
     }
   }
